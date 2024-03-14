@@ -1,0 +1,22 @@
+[package]
+name = "api-onlyone-admin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5.0"
+# rocket = { version = "0.5.0", features = ["json"] }
+# postgrest = "1.6.0"
+# serde = { version = "1.0", features = ["derive"] }
+# chrono = { version = "0.4.35", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+diesel = { version = "2.1.5", features = ["postgres"] }
+dotenvy = "0.15.7"
+# postgres = "0.19.7"
+# openssl = "0.10.64"
+# postgres_openssl = "0.5.0"
+
+# [dependencies.rocket_contrib]
+# version = "0.4.11"
+# default-features = false
+# features = ["json"]
